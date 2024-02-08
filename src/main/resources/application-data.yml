@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:1234@localhost:27017/study?authSource=admin&serverSelectionTimeoutMS=3000
+      auto-index-creation: true
+    rest:
+      default-media-type: application/json
